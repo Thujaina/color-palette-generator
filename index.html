@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Color Palette Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+    <h1 class="text-2xl font-bold mb-6 text-center">Color Palette Generator</h1>
+    <div id="palette" class="flex justify-between mb-6"></div>
+    <button id="generate" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full mb-2">Generate Palette</button>
+    <button id="copy" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 w-full">Copy HEX Codes</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
